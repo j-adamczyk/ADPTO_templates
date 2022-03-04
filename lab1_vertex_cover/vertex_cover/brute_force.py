@@ -1,7 +1,7 @@
 from itertools import combinations
 from typing import Optional, Set
 
-from vertex_cover.types import VertexSets
+from vertex_cover.types import VertexSets, EdgeList
 
 
 # TODO: add typing for graph
