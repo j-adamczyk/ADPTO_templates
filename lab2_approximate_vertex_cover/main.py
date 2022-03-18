@@ -70,4 +70,3 @@ if __name__ == "__main__":
         print("VC:", isVC(G_edge_list, solution))
         print()
         saveSolution(solution_filename, solution)
-        break
