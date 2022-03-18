@@ -56,19 +56,18 @@ if __name__ == "__main__":
         G_edge_list: EdgeList = edgeList(G)
 
         print(name)
-        for k in range(1, len(G)):
-            # TODO: implement kernelization
-            # graph_kernel, k, solution = kernelize(...)
+        # TODO: implement kernelization
+        # graph_kernel, k, solution = kernelize(...)
 
-            # TODO: implement solutions
-            solution = two_approx(G_edge_list, k)
-            # solution = logn_approx(G_edge_list, k)
+        # TODO: implement solutions
+        solution = two_approx(G_edge_list)
+        # solution = logn_approx(G_edge_list)
 
-            if not solution:
-                continue
+        if not solution:
+            continue
 
-            print("solution k:", len(solution))
-            print("VC:", isVC(G_edge_list, solution))
-            print()
-            saveSolution(solution_filename, solution)
-            break
+        print("solution k:", len(solution))
+        print("VC:", isVC(G_edge_list, solution))
+        print()
+        saveSolution(solution_filename, solution)
+        break
