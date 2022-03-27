@@ -8,7 +8,7 @@ def logn_approx(graph: EdgeList) -> set[int]:
 
     Approximation factor: log(n)
 
-    :param graph: graphs represented as a list of edges
+    :param graph: graph represented as a list of edges
     :return: set of vertices that approximate the cover
     """
     pass

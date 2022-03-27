@@ -1,6 +1,6 @@
 import os
 
-from vertex_cover import *
+from vertex_cover.brute_force import brute_force
 from vertex_cover.types import EdgeList, VertexSets
 from utils.dimacs import *
 

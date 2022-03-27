@@ -8,7 +8,7 @@ def two_approx(graph: EdgeList) -> set[int]:
 
     Approximation factor: 2
 
-    :param graph: graphs represented as a list of edges
+    :param graph: graph represented as a list of edges
     :return: set of vertices that approximate the cover
     """
     pass
