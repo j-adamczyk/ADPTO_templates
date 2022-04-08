@@ -1,6 +1,6 @@
 import os
 
-from sat import solve_x3c
+from sat.x3c import solve_x3c
 from sat.coloring import solve_coloring
 from sat.satisfiability import calculate_SAT_probabilities_and_plot
 from sat.types import VertexSets, EdgeList
