@@ -50,23 +50,6 @@ graph_names = [
 ]
 
 
-x3c_names = [
-    "10.no.x3c",
-    "10.yes.x3c",
-    "50.no.x3c",
-    "50.yes.x3c",
-    "100.no.x3c",
-    "200.no.x3c",
-    "200.yes.x3c",
-    "350.no.x3c",
-    "350.yes.x3c",
-    "500.no.x3c",
-    "500.yes.x3c",
-    "600.no.x3c",
-    "600.yes.x3c",
-]
-
-
 if __name__ == "__main__":
     graph_dir = "graphs"
     solution_dir = "graphs_solutions"
